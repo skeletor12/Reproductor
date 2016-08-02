@@ -12,6 +12,15 @@
 		EE866DD81D50454E0096C289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE866DD61D50454E0096C289 /* Main.storyboard */; };
 		EE866DDA1D50454E0096C289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE866DD91D50454E0096C289 /* Assets.xcassets */; };
 		EE866DDD1D50454E0096C289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE866DDB1D50454E0096C289 /* LaunchScreen.storyboard */; };
+		EE866DFD1D504D1D0096C289 /* i took a pill in ibiza.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE866DF51D504D1D0096C289 /* i took a pill in ibiza.mp3 */; };
+		EE866DFF1D504D1D0096C289 /* cheaptrills.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE866DF71D504D1D0096C289 /* cheaptrills.mp3 */; };
+		EE866E001D504D1D0096C289 /* DueleCorazon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE866DF81D504D1D0096C289 /* DueleCorazon.jpg */; };
+		EE866E031D504D1D0096C289 /* coldplaylovers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE866DFB1D504D1D0096C289 /* coldplaylovers.jpg */; };
+		EE866E061D504D950096C289 /* ITookPillinIbiza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE866E041D504D950096C289 /* ITookPillinIbiza.jpg */; };
+		EE866E071D504D950096C289 /* CheapThrills.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE866E051D504D950096C289 /* CheapThrills.jpg */; };
+		EE866E091D50524E0096C289 /* loversinjapan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE866E081D50524E0096C289 /* loversinjapan.mp3 */; };
+		EE866E0B1D506BF80096C289 /* dueleelcorazón.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE866E0A1D506BF80096C289 /* dueleelcorazón.mp3 */; };
+		EE866E0D1D506D520096C289 /* icono.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE866E0C1D506D520096C289 /* icono.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		EE866DD91D50454E0096C289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE866DDC1D50454E0096C289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE866DDE1D50454E0096C289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE866DF51D504D1D0096C289 /* i took a pill in ibiza.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "i took a pill in ibiza.mp3"; sourceTree = "<group>"; };
+		EE866DF71D504D1D0096C289 /* cheaptrills.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheaptrills.mp3; sourceTree = "<group>"; };
+		EE866DF81D504D1D0096C289 /* DueleCorazon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DueleCorazon.jpg; sourceTree = "<group>"; };
+		EE866DFB1D504D1D0096C289 /* coldplaylovers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coldplaylovers.jpg; sourceTree = "<group>"; };
+		EE866E041D504D950096C289 /* ITookPillinIbiza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ITookPillinIbiza.jpg; sourceTree = "<group>"; };
+		EE866E051D504D950096C289 /* CheapThrills.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CheapThrills.jpg; sourceTree = "<group>"; };
+		EE866E081D50524E0096C289 /* loversinjapan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loversinjapan.mp3; sourceTree = "<group>"; };
+		EE866E0A1D506BF80096C289 /* dueleelcorazón.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dueleelcorazón.mp3"; sourceTree = "<group>"; };
+		EE866E0C1D506D520096C289 /* icono.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icono.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +73,15 @@
 			isa = PBXGroup;
 			children = (
 				EE866DD21D50454E0096C289 /* AppDelegate.swift */,
+				EE866DF51D504D1D0096C289 /* i took a pill in ibiza.mp3 */,
+				EE866DF71D504D1D0096C289 /* cheaptrills.mp3 */,
+				EE866E0A1D506BF80096C289 /* dueleelcorazón.mp3 */,
+				EE866DF81D504D1D0096C289 /* DueleCorazon.jpg */,
+				EE866E041D504D950096C289 /* ITookPillinIbiza.jpg */,
+				EE866E051D504D950096C289 /* CheapThrills.jpg */,
+				EE866E0C1D506D520096C289 /* icono.jpg */,
+				EE866E081D50524E0096C289 /* loversinjapan.mp3 */,
+				EE866DFB1D504D1D0096C289 /* coldplaylovers.jpg */,
 				EE866DD41D50454E0096C289 /* ViewController.swift */,
 				EE866DD61D50454E0096C289 /* Main.storyboard */,
 				EE866DD91D50454E0096C289 /* Assets.xcassets */,
@@ -123,9 +150,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE866E061D504D950096C289 /* ITookPillinIbiza.jpg in Resources */,
 				EE866DDD1D50454E0096C289 /* LaunchScreen.storyboard in Resources */,
+				EE866E001D504D1D0096C289 /* DueleCorazon.jpg in Resources */,
+				EE866E0B1D506BF80096C289 /* dueleelcorazón.mp3 in Resources */,
+				EE866E031D504D1D0096C289 /* coldplaylovers.jpg in Resources */,
+				EE866E0D1D506D520096C289 /* icono.jpg in Resources */,
 				EE866DDA1D50454E0096C289 /* Assets.xcassets in Resources */,
+				EE866DFF1D504D1D0096C289 /* cheaptrills.mp3 in Resources */,
+				EE866DFD1D504D1D0096C289 /* i took a pill in ibiza.mp3 in Resources */,
+				EE866E091D50524E0096C289 /* loversinjapan.mp3 in Resources */,
 				EE866DD81D50454E0096C289 /* Main.storyboard in Resources */,
+				EE866E071D504D950096C289 /* CheapThrills.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
