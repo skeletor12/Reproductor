@@ -26,7 +26,7 @@
                                     <rect key="frame" x="20" y="28" width="184" height="21"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxE-OS-3aj">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxE-OS-3aj">
                                 <rect key="frame" x="20" y="57" width="122" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Sia -Cheap Thrills">
@@ -83,7 +83,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icono.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ece-6I-7r0">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="232" width="374" height="241"/>
+                                    <rect key="frame" x="20" y="242" width="374" height="231"/>
                                 </variation>
                             </imageView>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WSG-oE-yjm">
@@ -92,10 +92,10 @@
                                     <rect key="frame" x="18" y="667" width="378" height="31"/>
                                 </variation>
                                 <connections>
-                                    <action selector="volumen:" destination="BYZ-38-t0r" eventType="valueChanged" id="XhA-Gz-NGb"/>
+                                    <action selector="volumen:" destination="BYZ-38-t0r" eventType="valueChanged" id="FIA-LY-RGd"/>
                                 </connections>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5g1-MQ-PbT">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5g1-MQ-PbT">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Coldplay - lovers in japan">
@@ -108,7 +108,7 @@
                                     <action selector="songcol" destination="BYZ-38-t0r" eventType="touchUpInside" id="wq8-SY-XXh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eW-qP-fZJ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eW-qP-fZJ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Mike Posner - I took a pill in Ibiza">
@@ -121,14 +121,14 @@
                                     <action selector="songpos" destination="BYZ-38-t0r" eventType="touchUpInside" id="HXG-Lb-dqe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvL-XL-RKA">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvL-XL-RKA">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Enrique Iglesias - Duele el amor">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="147" width="285" height="30"/>
+                                    <rect key="frame" x="20" y="181" width="285" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="songenq" destination="BYZ-38-t0r" eventType="touchUpInside" id="4XC-ee-whK"/>
@@ -139,7 +139,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="179" width="369" height="24"/>
+                                    <rect key="frame" x="23" y="210" width="369" height="24"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kkm-la-BH6">
@@ -164,6 +164,19 @@
                                     <action selector="pause" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oih-WF-hgH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwZ-9J-q8v">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Michael Jackson - Thriller">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="146" width="319" height="36"/>
+                                </variation>
+                                <connections>
+                                    <action selector="songjac" destination="BYZ-38-t0r" eventType="touchUpInside" id="gC2-US-FRi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -178,6 +191,7 @@
                                 <exclude reference="iPt-Bw-bHj"/>
                                 <exclude reference="kkm-la-BH6"/>
                                 <exclude reference="nge-tt-Xi0"/>
+                                <exclude reference="KwZ-9J-q8v"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -192,6 +206,7 @@
                                 <include reference="iPt-Bw-bHj"/>
                                 <include reference="kkm-la-BH6"/>
                                 <include reference="nge-tt-Xi0"/>
+                                <include reference="KwZ-9J-q8v"/>
                             </mask>
                         </variation>
                     </view>
@@ -200,6 +215,7 @@
                         <outlet property="nombreCancion" destination="16G-21-Xrz" id="tDn-w1-yym"/>
                         <outlet property="nombreCantante" destination="L9J-l0-xWf" id="TiZ-B2-vsK"/>
                         <outlet property="portada" destination="ece-6I-7r0" id="RaO-c8-Ajl"/>
+                        <outlet property="volumen" destination="WSG-oE-yjm" id="MMJ-KU-I53"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

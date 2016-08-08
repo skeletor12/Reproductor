@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE40E68E1D580B1300615E76 /* Michael.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE40E68C1D580B1300615E76 /* Michael.jpg */; };
+		EE40E6901D580D4400615E76 /* Michael.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE40E68F1D580D4400615E76 /* Michael.mp3 */; };
 		EE866DD31D50454E0096C289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE866DD21D50454E0096C289 /* AppDelegate.swift */; };
 		EE866DD51D50454E0096C289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE866DD41D50454E0096C289 /* ViewController.swift */; };
 		EE866DD81D50454E0096C289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE866DD61D50454E0096C289 /* Main.storyboard */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE40E68C1D580B1300615E76 /* Michael.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Michael.jpg; sourceTree = "<group>"; };
+		EE40E68F1D580D4400615E76 /* Michael.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Michael.mp3; sourceTree = "<group>"; };
 		EE866DCF1D50454E0096C289 /* Reproductor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reproductor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE866DD21D50454E0096C289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE866DD41D50454E0096C289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,7 +82,9 @@
 				EE866E0A1D506BF80096C289 /* dueleelcorazón.mp3 */,
 				EE866DF81D504D1D0096C289 /* DueleCorazon.jpg */,
 				EE866E041D504D950096C289 /* ITookPillinIbiza.jpg */,
+				EE40E68C1D580B1300615E76 /* Michael.jpg */,
 				EE866E051D504D950096C289 /* CheapThrills.jpg */,
+				EE40E68F1D580D4400615E76 /* Michael.mp3 */,
 				EE866E0C1D506D520096C289 /* icono.jpg */,
 				EE866E081D50524E0096C289 /* loversinjapan.mp3 */,
 				EE866DFB1D504D1D0096C289 /* coldplaylovers.jpg */,
@@ -155,6 +161,7 @@
 				EE866E001D504D1D0096C289 /* DueleCorazon.jpg in Resources */,
 				EE866E0B1D506BF80096C289 /* dueleelcorazón.mp3 in Resources */,
 				EE866E031D504D1D0096C289 /* coldplaylovers.jpg in Resources */,
+				EE40E6901D580D4400615E76 /* Michael.mp3 in Resources */,
 				EE866E0D1D506D520096C289 /* icono.jpg in Resources */,
 				EE866DDA1D50454E0096C289 /* Assets.xcassets in Resources */,
 				EE866DFF1D504D1D0096C289 /* cheaptrills.mp3 in Resources */,
@@ -162,6 +169,7 @@
 				EE866E091D50524E0096C289 /* loversinjapan.mp3 in Resources */,
 				EE866DD81D50454E0096C289 /* Main.storyboard in Resources */,
 				EE866E071D504D950096C289 /* CheapThrills.jpg in Resources */,
+				EE40E68E1D580B1300615E76 /* Michael.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +333,7 @@
 				EE866DE31D50454E0096C289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

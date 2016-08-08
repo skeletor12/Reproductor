@@ -66,6 +66,22 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func songjac() {
+        let cancionjac = NSBundle.mainBundle().URLForResource("Michael", withExtension: "mp3")
+        do{
+            try reproductor = AVAudioPlayer(contentsOfURL: cancionjac!)
+            reproductor.play()
+            nombreCancion.text = "Thriller"
+            nombreCantante.text = "Michael Jackson"
+            portada.image = UIImage(named: "Michael.jpg")
+        }
+        catch{
+            
+            print("Error")
+        }
+    }
+    
+    
     @IBAction func songenq() {
         let cancionenq = NSBundle.mainBundle().URLForResource("dueleelcorazón", withExtension: "mp3")
         do{
@@ -111,11 +127,13 @@ class ViewController: UIViewController {
         else { reproductor.play() }
     }
     
-    @IBAction func volumen(sender: UISlider) {
-        
-        reproductor.volume = Float(sender.value) / 0.1
-        
+
+    @IBOutlet weak var volumen: UISlider!
+    
+    @IBAction func volumen(sender: AnyObject) {
+        reproductor.volume = volumen.value
     }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
