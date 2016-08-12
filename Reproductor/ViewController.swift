@@ -26,6 +26,7 @@ class ViewController: UIViewController {
             nombreCancion.text = "Cheap Thrills"
             nombreCantante.text = "Sia"
             portada.image = UIImage(named: "CheapThrills.jpg")
+            reproductor.volume = volumen.value
         }
         catch{
             
@@ -42,6 +43,7 @@ class ViewController: UIViewController {
             nombreCancion.text = "Lovers in Japan"
             nombreCantante.text = "Coldplay"
             portada.image = UIImage(named: "coldplaylovers.jpg")
+            reproductor.volume = volumen.value
         }
         catch{
             
@@ -58,6 +60,7 @@ class ViewController: UIViewController {
             nombreCancion.text = "I took a pill in Ibiza"
             nombreCantante.text = "Mike Posner"
             portada.image = UIImage(named: "ITookPillinIbiza.jpg")
+            reproductor.volume = volumen.value
         }
         catch{
             
@@ -74,6 +77,7 @@ class ViewController: UIViewController {
             nombreCancion.text = "Thriller"
             nombreCantante.text = "Michael Jackson"
             portada.image = UIImage(named: "Michael.jpg")
+            reproductor.volume = volumen.value
         }
         catch{
             
@@ -90,6 +94,7 @@ class ViewController: UIViewController {
             nombreCancion.text = "Duele el corazón"
             nombreCantante.text = "Enrique Iglesias"
             portada.image = UIImage(named: "DueleCorazon.jpg")
+            reproductor.volume = volumen.value
         }
         catch{
             
